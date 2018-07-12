@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'info') {
-    	message.reply('Welcome to Hydrine Corporation! We are a developer coding company. Please contact hydrinecorporation@gmail.com if you need help.');
+    	message.reply('We are the Hydrine Corporation! A developer coding company. Please contact hydrinecorporation@gmail.com if you need help.');
   	}
 });
 
